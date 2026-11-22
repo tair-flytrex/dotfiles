@@ -33,8 +33,20 @@
    "providers": {
       "applications": {
          "entrypoints": {
+            "com.google.Chrome": {
+               "shortcut": "alt+shift+B"
+            },
+            "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm": {
+               "shortcut": "alt+shift+M"
+            },
+            "com.google.Chrome.app.mjoklplbddabcmpepnokjaffbmgbkkgg": {
+               "shortcut": "alt+shift+G"
+            },
             "com.mitchellh.ghostty": {
                "shortcut": "alt+shift+RETURN"
+            },
+            "com.tinyspeck.slackmacgap": {
+               "shortcut": "alt+shift+S"
             }
          }
       },
