@@ -5,6 +5,22 @@ plugins=( git zsh-syntax-highlighting zsh-autosuggestions )
 source $ZSH/oh-my-zsh.sh
 source <(fzf --zsh)
 
+git_branch() {
+  local branch
+  branch=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --short HEAD 2>/dev/null) || return
+  echo "($branch)"
+}
+
+setopt PROMPT_SUBST  # re-evaluate $(git_branch) each time the prompt is drawn
+PROMPT='%B'
+PROMPT+='%F{82}%n'              # user
+PROMPT+='%F{118}@'
+PROMPT+='%F{154}%m'             # host
+PROMPT+='%f%b:'
+PROMPT+='%B%F{190}%~'           # current directory
+PROMPT+='%F{226}$(git_branch)'
+PROMPT+='%f%b%(!.#.$) '         # '#' for root, '$' otherwise
+
 alias ls='gls --color=auto --group-directories-first'
 alias ll='ls -lh'
 alias lla='ll -a'
