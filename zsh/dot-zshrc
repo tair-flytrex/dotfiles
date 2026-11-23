@@ -27,6 +27,7 @@ alias lla='ll -a'
 alias vim='nvim'
 alias vmi='vim'
 
+export EDITOR="nvim"
 
 export PATH="$HOME/.local/bin:$PATH"
 
