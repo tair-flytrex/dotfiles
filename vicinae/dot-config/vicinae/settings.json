@@ -45,6 +45,9 @@
             "com.mitchellh.ghostty": {
                "shortcut": "alt+shift+RETURN"
             },
+            "com.spotify.client": {
+               "shortcut": "alt+shift+P"
+            },
             "com.tinyspeck.slackmacgap": {
                "shortcut": "alt+shift+S"
             }
