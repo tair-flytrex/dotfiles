@@ -182,7 +182,7 @@ require("lazy").setup({
         },
 
         fuzzy = {
-          implementation = "rust",
+          implementation = "prefer_rust_with_warning",
         },
       },
     },
