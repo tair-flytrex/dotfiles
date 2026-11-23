@@ -60,6 +60,13 @@
             }
          }
       },
+      "scripts": {
+         "entrypoints": {
+            "tmuxinator.ts": {
+               "shortcut": "alt+shift+T"
+            }
+         }
+      },
       "wm": {
          "entrypoints": {
             "switch-windows": {
