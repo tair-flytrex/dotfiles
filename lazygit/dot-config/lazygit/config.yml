@@ -1,0 +1,6 @@
+promptToReturnFromSubprocess: false
+
+git:
+  diffRenderers:
+    - colorArg: always
+      command: diff-so-fancy
