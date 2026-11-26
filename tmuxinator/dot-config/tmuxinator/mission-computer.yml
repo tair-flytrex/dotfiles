@@ -1,0 +1,6 @@
+name: mission-computer
+root: ~/code/mission-computer/
+
+windows:
+  - editor: $EDITOR
+  - claude: claude

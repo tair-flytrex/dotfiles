@@ -1,0 +1,6 @@
+name: flytrex-ardupilot
+root: ~/code/flytrex_ardupilot/
+
+windows:
+  - editor: $EDITOR
+  - claude: claude
