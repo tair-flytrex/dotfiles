@@ -62,6 +62,9 @@
       },
       "scripts": {
          "entrypoints": {
+            "app-windows.ts": {
+               "shortcut": "alt+shift+SPACE"
+            },
             "tmuxinator.ts": {
                "shortcut": "alt+shift+T"
             }
